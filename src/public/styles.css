@@ -1,0 +1,23 @@
+nav {
+    background-color: rgba(255, 166, 0, 0.705);
+}
+nav.fixed-top {
+    left:5%;
+    right:10%;
+}
+
+.product-list {
+    margin-top:10%;
+}
+
+.card img{
+    height: 275px;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
